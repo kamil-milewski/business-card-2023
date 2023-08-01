@@ -21,6 +21,7 @@ body {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .card__description {
@@ -31,6 +32,9 @@ body {
 .card__info {
     flex-basis: 380px;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .card__link {
